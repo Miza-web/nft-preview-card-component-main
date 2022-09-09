@@ -18,8 +18,14 @@ body {
 .nftimage {
     width: 300px;
     margin-left: 25px;
-    padding-top: 25px;
+    margin-top: 25px;
     border-radius: 8px;
+}
+.nftimage:hover {
+    background-color: hsl(178, 100%, 50%);
+    opacity:0.7 !important;
+    filter:alpha(opacity=70) !important; /* For IE8 and earlier */
+    box-shadow: 0 0 0px #000000 !important;
 }
 .insidecontent {
     padding-left: 25px;
@@ -37,6 +43,8 @@ h1 {
 }
 .productInfo {
     display: inline-block;
+    border-bottom: 1px solid;
+    border-color: hsl(215, 32%, 27%);
 }
 .price {
     display: inline-block;
@@ -55,12 +63,23 @@ h1 {
 .userpicture {
     display: inline-block;
     width: 40px;
+    vertical-align: middle;
+    border: 2px solid;
+    border-radius: 50px;
+    border-color: white;
 }
 .createdby {
+    padding-left: 15px;
     display: inline-block;
     color: hsl(215, 51%, 70%);
 }
 .usernameSign {
     display:inline-block;
     color: white;
+}
+.usernameSign:hover {
+    color: hsl(178, 100%, 50%);
+}
+.nfttitle:hover {
+    color: hsl(178, 100%, 50%);
 }
