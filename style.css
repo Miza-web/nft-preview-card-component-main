@@ -44,10 +44,23 @@ h1 {
 }
 .timeleft {
     display: inline-block;
+    padding-left: 100px;
     color: hsl(215, 51%, 70%);
     font-weight: 300;
     font-size: 16px;
 }
 .user {
-
+    display: inline-block;
+}
+.userpicture {
+    display: inline-block;
+    width: 40px;
+}
+.createdby {
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+}
+.usernameSign {
+    display:inline-block;
+    color: white;
 }
