@@ -20,12 +20,32 @@ body {
     margin-left: 25px;
     margin-top: 25px;
     border-radius: 8px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
-.nftimage:hover {
+.nftimage_bg {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    opacity: 0;
     background-color: hsl(178, 100%, 50%);
-    opacity:0.7 !important;
-    filter:alpha(opacity=70) !important; /* For IE8 and earlier */
-    box-shadow: 0 0 0px #000000 !important;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+.nftimage_bg:hover {
+    opacity: 0.6;
+}
+.viewicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
 }
 .insidecontent {
     padding-left: 25px;
@@ -82,4 +102,7 @@ h1 {
 }
 .nfttitle:hover {
     color: hsl(178, 100%, 50%);
+}
+.imgalign {
+    vertical-align: auto;
 }
