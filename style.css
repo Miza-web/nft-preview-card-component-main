@@ -8,39 +8,43 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .mainbox {
     background-color: hsl(216, 50%, 16%);
     width: 350px;
     height: 600px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 .nftimage {
     width: 300px;
     margin-left: 25px;
     margin-top: 25px;
-    border-radius: 8px;
+    border-radius: 10px;
     position: relative;
     top: 0;
     left: 0;
 }
 .nftimage_bg {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 25px;
+    left: 25px;
     opacity: 0;
     background-color: hsl(178, 100%, 50%);
     width: 300px;
     height: 300px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 .nftimage_bg:hover {
-    opacity: 0.6;
+    opacity: 0.7;
 }
 .viewicon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    width: 50px;
 }
 .parent {
     position: relative;
@@ -52,6 +56,7 @@ body {
 }
 p {
     font-size: 18px;
+    font-weight: 300;
 }
 h1 {
     color: white;
@@ -69,33 +74,37 @@ h1 {
 .price {
     display: inline-block;
     color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-size: 18px;
 }
 .timeleft {
     display: inline-block;
     padding-left: 100px;
     color: hsl(215, 51%, 70%);
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
 }
 .user {
     display: inline-block;
 }
 .userpicture {
     display: inline-block;
-    width: 40px;
+    width: 30px;
     vertical-align: middle;
     border: 2px solid;
     border-radius: 50px;
     border-color: white;
 }
 .createdby {
-    padding-left: 15px;
+    padding-left: 10px;
     display: inline-block;
     color: hsl(215, 51%, 70%);
+    font-size: 16px;
 }
 .usernameSign {
     display:inline-block;
     color: white;
+    font-size: 16px;
 }
 .usernameSign:hover {
     color: hsl(178, 100%, 50%);
@@ -104,5 +113,5 @@ h1 {
     color: hsl(178, 100%, 50%);
 }
 .imgalign {
-    vertical-align: auto;
+    vertical-align: -10%;
 }
